@@ -1,0 +1,30 @@
+<tree:node xmlns:tree="http://types.bu.edu/XSL/Transform/Tree">
+
+  <!-- This is a test
+       of multi-line  
+       text -->
+  <tree:content>Foo</tree:content>
+
+  <tree:node>
+    <tree:content>Bar</tree:content>
+    <tree:leaf>
+      <tree:content>123
+
+789</tree:content> 
+    </tree:leaf>
+    <tree:leaf>
+      <tree:content>456</tree:content> 
+    </tree:leaf>
+  </tree:node>
+
+  <tree:node>
+    <tree:content>Baz</tree:content>
+    <tree:leaf>
+      <tree:content>789</tree:content> 
+    </tree:leaf>
+  </tree:node>
+
+  <tree:leaf>
+    <tree:content>Qux</tree:content> 
+  </tree:leaf>
+</tree:node>

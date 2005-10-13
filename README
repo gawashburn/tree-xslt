@@ -1,0 +1,18 @@
+As of 2002-05-04, the contents of this directory are files that are
+part of a generic package for drawing trees without output in ASCII,
+HTML, and LaTeX.
+
+The render-tree-XYZ.xslt files are XSLT stylesheets that will take a
+tree (see tree-example.xml for an example of the XML dialect) and
+render it in format XYZ.
+
+The render-xml-XYZ.xslt files are XSLT stylesheets that will take any
+XML file as input, convert it to the tree format used by the
+render-tree-XYZ.xslt file, and then render it in the XYZ format.
+
+(If you want to obtain just the "tree" XML produced as an intermediate
+result, you can edit the render-xml-XYZ.xslt file to strip out the
+call to the render-tree template in the root level template match.)
+
+The {,last-,no-}child.png file are image files that are used for the
+HTML trees to draw the edges in the trees.
